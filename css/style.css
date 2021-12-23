@@ -710,11 +710,8 @@ address div {
   transition: opacity 250ms, visibility 250ms;
 }
 
-/* ----------- Subscribe form footer */
+/* ---- Subscribe form footer */
 .subscribe-footer {
-  /* background-color: #fff;
-  width: 200px;
-  height: 50px; */
   margin-left: 93px;
 }
 
@@ -765,11 +762,18 @@ address div {
   border: 1px solid var(--item-on);
   border-radius: 4px;
   margin-left: 12px;
+  /* padding: 10px 28px 10px 28px; */
+  /* box-sizing: border-box; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .subscribe-bt-ico {
   fill: var(--item-off);
+  margin-left: 10px;
 }
+
 .form-send {
   display: flex;
 }
