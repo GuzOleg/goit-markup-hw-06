@@ -453,25 +453,22 @@
         <!-- Форма подписки -->
         <div class="subscribe-footer">
           <h3>Подпишитесь на рассылку</h3>
-          <div class="form-send">
-            <form action="#" class="form-subscribe">
-              <label for="subscribe-name"></label>
-              <input
-                type="email"
-                class="subscribe-input"
-                name="subscribe-name"
-                id="subscribe-name"
-                placeholder="E-mail"
-              />
-
-              <button class="subscribe-bt" type="submit">
-                Подписаться
-                <svg class="subscribe-bt-ico" width="24" height="24">
-                  <use href="./img/sprite.svg#send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+          <form action="#" class="form-subscribe">
+            <label for="subscribe-name"></label>
+            <input
+              type="email"
+              class="subscribe-input"
+              name="subscribe-name"
+              id="subscribe-name"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-bt" type="submit">
+              Подписаться
+              <svg class="subscribe-bt-ico" width="24" height="24">
+                <use href="./img/sprite.svg#send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -532,11 +529,10 @@
             <div class="modal-fild">
               <label for="modal-text" class="modal-label">Комментарий</label>
               <textarea
-                autocomplete="off"
-                class="modal-input modal-text"
+                class="modal-text modal-input"
                 name="modal-text"
                 id="modal-text"
-                placeholder="Введите текст"
+                placeholder="Введите свой текст"
               >
               </textarea>
             </div>
